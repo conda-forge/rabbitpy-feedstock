@@ -34,7 +34,7 @@ test:
     - python {{ python_min }}
 
 about:
-  home: https://rabbitpy.readthedocs.io
+  home: https://gmr.github.io/rabbitpy/
   summary: A pure python, thread-safe, minimalistic and pythonic RabbitMQ client library
   license: BSD-3-Clause
   license_file: LICENSE
