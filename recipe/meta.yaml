@@ -1,5 +1,5 @@
 {% set name = "rabbitpy" %}
-{% set version = "3.0.0" %}
+{% set version = "3.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/rabbitpy-{{ version }}.tar.gz
-  sha256: e4e26019164b1cb9e37f5f9a6ce0367c0b3b81d572806158c43871d2d24d0305
+  sha256: 0664ca146869215c602eafab69fccf63ad24710fcc4dd9c9c37b4b1e62fdb9c1
 
 build:
   noarch: python
@@ -34,7 +34,7 @@ test:
     - python {{ python_min }}
 
 about:
-  home: https://rabbitpy.readthedocs.io
+  home: https://gmr.github.io/rabbitpy/
   summary: A pure python, thread-safe, minimalistic and pythonic RabbitMQ client library
   license: BSD-3-Clause
   license_file: LICENSE
